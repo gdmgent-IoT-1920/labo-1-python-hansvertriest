@@ -37,7 +37,6 @@ try_counter = 0
 
 while not nr_found:
 	usr_nr = input('Guess the number: ')
-	print(usr_nr)
 	try_counter += 1
 	if secret_nr == usr_nr:
 		print('You found the number in ' + str(try_counter) + ' times!')
